@@ -23,17 +23,18 @@ const Signup = () => {
         <input
         type="email"
         placeholder="Email"
-        value={username}
+        value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
       />
         <input
         type="password"
         placeholder="Password"
-        value={username}
+        value={password}
         onChange={(e) => setPassword(e.target.value)}
         required
       />
+      <button type="submit">Sign Up</button>
     </form>
   )
 }
